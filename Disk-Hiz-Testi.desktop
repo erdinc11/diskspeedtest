@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Disk Hız Testi
+GenericName=Disk Hız Ölçümü
+Comment=Sıralı yazma ve sıralı okuma hızını ölçer
+Exec=/usr/bin/python3 /home/anon/Belgeler/diskspeedtest/disk_hiz_testi.py
+Path=/home/anon/Belgeler/diskspeedtest
+Icon=drive-harddisk
+Terminal=false
+StartupNotify=true
+Categories=System;Filesystem;Utility;
+Keywords=disk;hiz;speed;test;benchmark;yazma;okuma;
